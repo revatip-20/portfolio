@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 export default function About(){
   return (
-    <section id="about" className="mt-5 py-5">
+    <section id="about" className="mt-9 py-9">
       <motion.h2 initial={{opacity:0}} animate={{opacity:1}} className="text-2xl font-semibold">About</motion.h2>
       <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-6">
         <div className="md:col-span-2 glass p-6 rounded-xl">
