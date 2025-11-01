@@ -11,7 +11,7 @@ export default function Contact(){
 
 async function submit(e){
   e.preventDefault()
-  const response = await fetch("http://127.0.0.1:8000/contact", {
+  const response = await fetch("https://portfolio-phuz.onrender.com/contact", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(form)
