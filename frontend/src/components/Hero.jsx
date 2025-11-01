@@ -3,6 +3,8 @@ import { personal } from '../data/resume'
 import { motion } from 'framer-motion'
 import { FaEnvelope } from 'react-icons/fa'
 
+import profileImg from '../assets/profile.jpg'
+
 export default function Hero(){
   return (
     <section id="home" className="mt-9 py-11">
@@ -29,7 +31,7 @@ export default function Hero(){
           transition={{ duration: 0.6 }}
           className="flex justify-center md:justify-end">
           <div className="w-60 h-65 rounded-2xl overflow-hidden glass flex items-center justify-center">
-            <img src="/src/assets/profile.jpg" alt="profile" className="object-cover w-full h-full" />
+            <img src={profileImg} alt="profile" className="object-cover w-full h-full" />
           </div>
         </motion.div>
       </div>
